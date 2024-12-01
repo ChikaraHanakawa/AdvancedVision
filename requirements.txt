@@ -1,5 +1,3 @@
-wave
-pyroomacoustics
-numpy
-scipy.signal
-scipy
+transformers
+datasets
+torch
