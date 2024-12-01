@@ -1,0 +1,10 @@
+model:
+  sound_path: "/home/chikara/Downloads/crow.mp3"
+  image_url: "https://search.yahoo.co.jp/image/search?p="
+
+app:
+  save_path: "data/serch_bird.jpg"
+
+gui:
+  width: 800
+  height: 600

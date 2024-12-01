@@ -1,6 +1,5 @@
 transformers
 datasets
 torch
-bs4
 selenium
 webdriver_manager
