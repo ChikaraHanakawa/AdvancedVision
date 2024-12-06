@@ -9,10 +9,11 @@ class Model:
     
     def SoundToImage(self, sound_path, url):
         self.result = self.pipe(sound_path)
+        print(self.result[0])
         self.serch_word = self.result[0]['label']
-        self.serch_word = self.serch_word.replace(' ', '')
+        replace_serch_word = self.serch_word.replace(' ', '')
         self.const = url
-        self.url = self.const + self.serch_word
+        self.url = self.const + replace_serch_word
     
     def ReadConfig(self):
         with open('config/config.yaml') as file:

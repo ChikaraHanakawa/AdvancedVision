@@ -19,11 +19,18 @@ class App:
         options.add_argument('--headless')
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         driver.get(self.url)
+        bird_name = self.model.serch_word
+        bird_name = bird_name.replace('-', ' ')
+        
         image_tags = driver.find_elements(By.TAG_NAME, 'img')
-        image_tag = image_tags[0]
-        with open(self.conf['app']['save_path'], 'wb') as f:
-            f.write(requests.get(image_tag.get_attribute('src')).content)
-            print('Downloaded image')
+        for i in range(len(image_tags)):
+            image_tag = image_tags[i]
+            print(image_tag.get_attribute('alt').lower())
+            if bird_name.lower() in image_tag.get_attribute('alt').lower() or bird_name.lower() in image_tag.get_attribute('title').lower():
+                with open(self.conf['app']['save_path'], 'wb') as f:
+                    f.write(requests.get(image_tag.get_attribute('src')).content)
+                    print('Downloaded image')
+                break
         driver.quit()
     
 def main():

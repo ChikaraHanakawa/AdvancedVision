@@ -1,5 +1,5 @@
-Andean Guan - アンデスカンムリケン
-Andean Tinamou - アンデスティナム
+Andean Guan - アンデスシャクケイ
+Andean Tinamou - アンデスシギダチョウ
 Australian Brushturkey - オーストラリアノスリョウ
 Band-tailed Guan - オグロカンムリケン
 Bartletts Tinamou - バートレットティナム
@@ -10,7 +10,7 @@ Brazilian Tinamou - ブラジリアンティナム
 Brushland Tinamou - ヤブチナム
 Cauca Guan - コウカカンムリケン
 Chaco Chachalaca - チャコカシャラカ
-Chestnut-winged Chachalaca - ムネアカカシャラカ
+Chestnut-winged Chachalaca - チャバネヒメシャクケイ
 Cinereous Tinamou - ハイイロティナム
 Colombian Chachalaca - コロンビアカシャラカ
 Crested Guan - カンムリカシャラカ
@@ -24,7 +24,7 @@ Highland Tinamou - タカチナム
 Little Tinamou - コチナム
 Orange-footed Scrubfowl - オレンジアシヤブセイケイ
 Pale-browed Tinamou - ウスマユチナム
-Plain Chachalaca - ノーマルカシャラカ
+Plain Chachalaca - ムジヒメシャクケイ
 Red-legged Tinamou - アカアシチナム
 Red-winged Tinamou - アカハネチナム
 Rufous-bellied Chachalaca - アカハラカシャラカ
