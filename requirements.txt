@@ -3,3 +3,4 @@ datasets
 torch
 selenium
 webdriver_manager
+pillow
