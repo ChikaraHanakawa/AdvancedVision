@@ -11,7 +11,7 @@ Transformerモデルを利用しており，GUIで音声ファイルの決定と
 1. リポジトリのクローン
 
 ```
-git clone https://github.com/ChikaraHanakawa/AdvancedVision
+git clone https://github.com/ChikaraHanakawa/SoundsClassificatin_BirdImage.git
 ```
 
 2. 仮想環境の作成および実行
